@@ -1,0 +1,174 @@
+body {
+    background: url("http://my.fit.edu/~paggarwal2014/Project/Background.png");
+}     
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: #ffff00;
+    font-size: 54px;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";   
+}
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    size: 30px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor:pointer; 
+    opacity: 1;
+}
+.button:hover {
+    opacity: 0.6;
+    transform: scale(0.9)
+}
+#codebutton {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    size: 30px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor:pointer; 
+    opacity: 1;
+}
+#codebutton:hover {
+    opacity: 0.6;
+    transform: scale(0.9)
+}
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.imageview {
+    display: block;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    transform: scale(1);
+    transition: opacity .25s,transform .25s;   
+}
+.imageview:hover {
+    transform: scale(1.1);
+}
+#p1{
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    font-style: italic;
+    font-family: "Times New Roman",Times,Baskerville,Georgia,serif;
+    text-align: center;
+    color: #4C4C4C;
+}
+#p2{
+    font-size: 13px;
+    line-height: 22px;
+    font-family: "Times New Roman",Times,Baskerville,Georgia,serif;
+    text-align: center;
+    color: #4C4C4C;
+}
+#subtitle {
+    color: #4c4c4c;
+    text-align: center;
+    font-family: "alternate-gothic-no-1-d","Futura Condensed","Arial Narrow",Arial,sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: underline;
+}
+.synopsisBox {
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    position: relative;
+    height: 120px;
+    width: 93%;
+    margin:1%;
+}
+
+label{
+    font-size: 18px;
+    text-align: center;
+    font-weight: normal;
+    color: #4c4c4c;
+
+}
+.center {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+#formBox {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 25px;
+    position: relative;
+    height: 310px;
+    width: 50%;
+    margin:auto;
+}
+#checkBox {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 25px;
+    position: relative;
+    height: 300px;
+    width: 75%;
+    margin:auto;
+}
+#synopsisTitle {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: normal;
+    color: #4c4c4c;
+}
+#synopsisDetail {
+    color: #4c4c4c;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 25px;
+    margin-left: 0px;
+}
+
+#RogueOne{ display: none;}
+#Moana{ display: none;}
+#FantasicBeasts{ display: none;}
+#DrStrange{ display: none;}
